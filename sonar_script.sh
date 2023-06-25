@@ -101,7 +101,7 @@ sudo touch /etc/nginx/sites-available/sonarqube
 sudo bash -c 'sudo cat <<EOT> /etc/nginx/sites-available/sonarqube
 server{
     listen      80;
-    server_name sonar.robofarming.link;
+    server_name sonar.sonarqubeljc.link;
 
     access_log  /var/log/nginx/sonar.access.log;
     error_log   /var/log/nginx/sonar.error.log;

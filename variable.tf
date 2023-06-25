@@ -1,4 +1,4 @@
 variable "domainName" {
-  default = "sonar.robofarming.link"
+  default = "sonar.sonarqubeljc.link"
   type    = string
 }
